@@ -1,24 +1,30 @@
 {
-  "posts": [
+  "places": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Italy",
+      "visa_required": false
     },
     {
       "id": 2,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "Switzerland",
+      "visa_required": true
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 3,
+      "name": "France",
+      "visa_required": false
+    },
+    {
+      "name": "america",
+      "visa_required": true,
+      "id": 4
+    },
+    {
+      "name": "italy",
+      "visa_required": true,
+      "id": 5
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "interests": []
 }
